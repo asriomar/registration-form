@@ -161,7 +161,7 @@ const FormExample = () => {
       <h1 className="mb-4 text-3xl font-bold text-center">Registration Form</h1>
 
       <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           <div>
             <label htmlFor="name" className="block mb-1 font-semibold">
               Name
@@ -312,7 +312,7 @@ const FormExample = () => {
       </div>
 
       <hr className="my-8" />
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-3 gap-6">
         {dataList.map((data, index) => (
           <div key={index} className="border border-gray-300 rounded-lg p-4">
             <div className="flex justify-between items-center mb-4">
